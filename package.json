@@ -1,5 +1,5 @@
 {
-  "name": "code-sans-stress",
+  "name": "project-mous",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -13,5 +13,8 @@
   "devDependencies": {
     "vite": "^7.1.7",
     "vitest": "^2.1.4"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^9.23.0"
   }
 }

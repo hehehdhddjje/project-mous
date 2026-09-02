@@ -1,26 +1,28 @@
-# Code Sans Stress
+# project-mous
 
-**Code Sans Stress** est un atelier web en français destiné aux personnes qui débutent. Une idée formulée en langage simple est orientée vers un petit plan, un exemple de code et une demande détaillée à copier dans un assistant IA.
+**project-mous** est un prototype de reconstruction urbaine et d’itinéraire 3D dans le navigateur. Il affiche une avenue procédurale avec trois bâtiments différenciés, une route de navigation cyan, un repère de destination, des véhicules, des arbres, des lampadaires et un HUD de télémétrie au style terminal.
 
-## Ce que cette version fait
-
-L’atelier fonctionne entièrement dans le navigateur, sans collecte ni envoi de la phrase saisie. Il reconnaît quelques intentions courantes : créer un site, diagnostiquer une erreur, automatiser une tâche avec Python ou construire un prototype. Les recommandations sont volontairement locales et déterministes afin de rendre le site déployable sur GitHub Pages sans exposer de clé secrète.
-
-> Cette version ne prétend pas entraîner un modèle de machine learning et ne fournit pas de réponse générative libre. Un modèle réellement entraîné ou un assistant conversationnel nécessite des données légitimes, une évaluation, puis un serveur sécurisé pour appeler le modèle sans publier de clé d’accès dans le navigateur.
-
-## Lancer le projet
+## Lancer le prototype
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
-Les validations disponibles sont `npm test`, `npm run check` et `npm run build`.
+La scène se manipule à la souris ou au doigt : glisser pour orbiter, faire défiler pour zoomer et utiliser le bouton `[ recentrer ]` pour retrouver le point de vue initial. Le bouton `[ aide ]` détaille les contrôles et le périmètre du prototype.
 
-## GitHub Pages
+## Périmètre actuel
 
-Le workflow `.github/workflows/deploy-pages.yml` produit automatiquement le site à chaque envoi sur la branche `main`. Après avoir créé le dépôt, activez **Settings → Pages → Build and deployment → GitHub Actions** si GitHub ne sélectionne pas automatiquement cette source.
+Les bâtiments sont des volumes procéduraux détaillés dans `src/city-scene.js`. Cette version ne reproduit pas encore un quartier réel à partir de données cartographiques ou photogrammétriques ; elle établit le langage visuel, la caméra, le tracé d’itinéraire et les modules nécessaires à une future reconstruction plus fidèle.
 
-## Transformer l’atelier en IA conversationnelle
+## Vérifications
 
-GitHub Pages ne peut pas garder un secret. Pour passer à un véritable assistant, conservez cette interface statique et créez un petit service côté serveur qui reçoit la demande, applique des règles de sécurité, puis appelle le modèle choisi. Ajoutez ensuite une variable d’environnement côté serveur : ne placez jamais une clé d’API dans `src/` ni dans les secrets GitHub destinés au navigateur.
+```bash
+npm test
+npm run check
+npm run build
+```
+
+## Suite logique
+
+Pour obtenir une reconstruction réaliste d’un lieu précis, il faudra ajouter une source de données géographiques autorisée, un pipeline de géométrie/photogrammétrie et des textures ou modèles 3D compatibles. Les clés et données privées ne doivent pas être embarquées dans l’application côté navigateur.
