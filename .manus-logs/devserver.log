@@ -1,0 +1,87 @@
+[2026-09-02T21:33:33.828Z] Dev server exited with code 0
+[2026-09-02T21:36:55.010Z] Starting dev server with command: pnpm run dev
+[2026-09-02T21:36:56.257Z] [WARN] Moving vite that was installed by a different package manager to "node_modules/.ignored"
+[2026-09-02T21:36:56.258Z] [WARN] Moving vitest that was installed by a different package manager to "node_modules/.ignored"
+[2026-09-02T21:36:56.436Z] Progress: resolved 1, reused 0, downloaded 0, added 0
+[2026-09-02T21:36:57.438Z] Progress: resolved 1, reused 0, downloaded 1, added 0
+[2026-09-02T21:36:58.441Z] Progress: resolved 15, reused 1, downloaded 5, added 0
+[2026-09-02T21:36:59.020Z] Packages: +49
+[2026-09-02T21:36:59.020Z] +++++++++++++++++++++++++++++++++++++++++++++++++
+[2026-09-02T21:36:59.044Z] Packages are hard linked from the content-addressable store to the virtual store.
+[2026-09-02T21:36:59.045Z] Content-addressable store is at: /home/ubuntu/.local/share/pnpm/store/v11
+[2026-09-02T21:36:59.045Z] Virtual store is at:             node_modules/.pnpm
+[2026-09-02T21:36:59.183Z] Progress: resolved 122, reused 3, downloaded 46, added 49, done
+[2026-09-02T21:36:59.286Z] devDependencies:
+[2026-09-02T21:36:59.286Z] + vite 7.3.6 (8.2.2 is available)
+[2026-09-02T21:36:59.286Z] + vitest 2.1.9 (4.1.11 is available)
+[2026-09-02T21:36:59.304Z] [ERR_PNPM_IGNORED_BUILDS] Ignored build scripts: esbuild@0.21.5, esbuild@0.28.2
+[2026-09-02T21:36:59.304Z] Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.
+[2026-09-02T21:36:59.382Z] [ERROR] Command failed with exit code 1: pnpm install
+[2026-09-02T21:36:59.382Z] pnpm: Command failed with exit code 1: pnpm install
+[2026-09-02T21:36:59.382Z] at getFinalError (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:89319:14)
+[2026-09-02T21:36:59.382Z] at makeError (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:91626:21)
+[2026-09-02T21:36:59.382Z] at getSyncResult (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:93470:10)
+[2026-09-02T21:36:59.382Z] at spawnSubprocessSync (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:93430:14)
+[2026-09-02T21:36:59.382Z] at execaCoreSync (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:93360:23)
+[2026-09-02T21:36:59.382Z] at callBoundExeca (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:95888:23)
+[2026-09-02T21:36:59.382Z] at boundExeca (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:95865:49)
+[2026-09-02T21:36:59.382Z] at sync2 (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:96020:14)
+[2026-09-02T21:36:59.382Z] at runPnpmCli (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:273515:5)
+[2026-09-02T21:36:59.382Z] at runDepsStatusCheck (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:274731:7)
+[2026-09-02T21:36:59.403Z] Dev server exited with code 1
+[2026-09-02T21:37:07.654Z] Starting dev server with command: pnpm run dev
+[2026-09-02T21:37:08.950Z] ✓ Lockfile passes supply-chain policies (verified 9s ago)
+[2026-09-02T21:37:08.955Z] Lockfile is up to date, resolution step is skipped
+[2026-09-02T21:37:08.990Z] Already up to date
+[2026-09-02T21:37:09.236Z] [ERR_PNPM_IGNORED_BUILDS] Ignored build scripts: esbuild@0.21.5, esbuild@0.28.2
+[2026-09-02T21:37:09.236Z] Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.
+[2026-09-02T21:37:09.289Z] [ERROR] Command failed with exit code 1: pnpm install
+[2026-09-02T21:37:09.289Z] pnpm: Command failed with exit code 1: pnpm install
+[2026-09-02T21:37:09.289Z] at getFinalError (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:89319:14)
+[2026-09-02T21:37:09.289Z] at makeError (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:91626:21)
+[2026-09-02T21:37:09.289Z] at getSyncResult (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:93470:10)
+[2026-09-02T21:37:09.290Z] at spawnSubprocessSync (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:93430:14)
+[2026-09-02T21:37:09.290Z] at execaCoreSync (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:93360:23)
+[2026-09-02T21:37:09.290Z] at callBoundExeca (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:95888:23)
+[2026-09-02T21:37:09.290Z] at boundExeca (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:95865:49)
+[2026-09-02T21:37:09.290Z] at sync2 (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:96020:14)
+[2026-09-02T21:37:09.290Z] at runPnpmCli (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:273515:5)
+[2026-09-02T21:37:09.290Z] at runDepsStatusCheck (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:274731:7)
+[2026-09-02T21:37:09.310Z] Dev server exited with code 1
+[2026-09-02T21:37:24.194Z] Starting dev server with command: pnpm run dev
+[2026-09-02T21:37:24.803Z] [WARN] The "pnpm" field in package.json is no longer read by pnpm. The following keys were ignored: "pnpm.onlyBuiltDependencies". See https://pnpm.io/settings for the new home of each setting.
+[2026-09-02T21:37:25.470Z] [WARN] The "pnpm" field in package.json is no longer read by pnpm. The following keys were ignored: "pnpm.onlyBuiltDependencies". See https://pnpm.io/settings for the new home of each setting.
+[2026-09-02T21:37:25.554Z] ✓ Lockfile passes supply-chain policies (verified 26s ago)
+[2026-09-02T21:37:25.560Z] Lockfile is up to date, resolution step is skipped
+[2026-09-02T21:37:25.597Z] Already up to date
+[2026-09-02T21:37:25.862Z] [ERR_PNPM_IGNORED_BUILDS] Ignored build scripts: esbuild@0.21.5, esbuild@0.28.2
+[2026-09-02T21:37:25.862Z] Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.
+[2026-09-02T21:37:25.919Z] [ERROR] Command failed with exit code 1: pnpm install
+[2026-09-02T21:37:25.919Z] pnpm: Command failed with exit code 1: pnpm install
+[2026-09-02T21:37:25.919Z] at getFinalError (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:89319:14)
+[2026-09-02T21:37:25.919Z] at makeError (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:91626:21)
+[2026-09-02T21:37:25.919Z] at getSyncResult (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:93470:10)
+[2026-09-02T21:37:25.919Z] at spawnSubprocessSync (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:93430:14)
+[2026-09-02T21:37:25.919Z] at execaCoreSync (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:93360:23)
+[2026-09-02T21:37:25.919Z] at callBoundExeca (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:95888:23)
+[2026-09-02T21:37:25.919Z] at boundExeca (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:95865:49)
+[2026-09-02T21:37:25.919Z] at sync2 (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:96020:14)
+[2026-09-02T21:37:25.919Z] at runPnpmCli (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:273515:5)
+[2026-09-02T21:37:25.919Z] at runDepsStatusCheck (file:///home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/pnpm/dist/pnpm.mjs:274731:7)
+[2026-09-02T21:37:25.945Z] Dev server exited with code 1
+[2026-09-02T21:37:46.924Z] Starting dev server with command: pnpm run dev
+[2026-09-02T21:37:48.224Z] ✓ Lockfile passes supply-chain policies (verified 48s ago)
+[2026-09-02T21:37:48.229Z] Lockfile is up to date, resolution step is skipped
+[2026-09-02T21:37:48.265Z] Already up to date
+[2026-09-02T21:37:48.505Z] .../esbuild@0.21.5/node_modules/esbuild postinstall$ node install.js
+[2026-09-02T21:37:48.506Z] .../esbuild@0.28.2/node_modules/esbuild postinstall$ node install.js
+[2026-09-02T21:37:48.586Z] .../esbuild@0.21.5/node_modules/esbuild postinstall: Done
+[2026-09-02T21:37:48.592Z] .../esbuild@0.28.2/node_modules/esbuild postinstall: Done
+[2026-09-02T21:37:48.851Z] Done in 1.2s using pnpm v11.24.0
+[2026-09-02T21:37:48.872Z] $ vite --host 0.0.0.0
+[2026-09-02T21:37:49.145Z] VITE v7.3.6  ready in 225 ms
+[2026-09-02T21:37:49.145Z] ➜  Local:   http://localhost:5173/
+[2026-09-02T21:37:49.146Z] ➜  Network: http://169.254.0.21:5173/
+[2026-09-02T22:08:47.861Z] 10:08:47 PM [vite] (client) page reload client/index.html
+[2026-09-02T22:08:47.866Z] 10:08:47 PM [vite] (client) page reload index.html
+[2026-09-02T22:08:47.867Z] 10:08:47 PM [vite] vite.config.js changed, restarting server...
